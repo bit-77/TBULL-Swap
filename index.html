@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="yandex-verification" content="tbullswap2025" />
+  <meta name="msvalidate.01" content="TBULLSWAP2025TRON" />
+  <meta name="google-site-verification" content="tbull-swap-tron-dex-aggregator" />
+
+  <!-- PRIMARY SEO -->
+  <title>TBULL Swap – #1 TRON DEX Aggregator | Best TRC20 Token Swaps</title>
+  <meta name="description" content="TBULL Swap is the premier TRON-native DEX aggregator. Swap TRC20 tokens instantly with best rates, earn staking rewards, MEV protection. No KYC, non-custodial, ultra-low fees on TRON network." />
+  <meta name="keywords" content="TBULL Swap, TBULLSwap, TRON DEX, TRC20 swap, TBULL token, TRON swap aggregator, TRON DeFi, swap USDT TRC20, TRON staking, TRC20 staking rewards, TBULL staking, SunSwap alternative, best TRON DEX, tbull-swap.vercel.app, TRON liquidity, TRON yield farming" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <link rel="canonical" href="https://tbull-swap.vercel.app/" />
+  <meta name="author" content="TBULL Swap – TRON DeFi" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="TBULL Swap – TRON's Premier DEX Aggregator & Staking Platform" />
+  <meta property="og:description" content="Swap TRC20 tokens at the best rates and earn staking rewards on TRON. Non-custodial, MEV-protected, zero KYC." />
+  <meta property="og:url" content="https://tbull-swap.vercel.app/" />
+  <meta property="og:site_name" content="TBULL Swap" />
+  <meta property="og:image" content="https://tbull-swap.vercel.app/og.png" />
+  <meta property="og:locale" content="en_US" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="TBULL Swap – TRON DEX Aggregator & Staking" />
+  <meta name="twitter:description" content="Best TRC20 token swaps + staking rewards. Powered by TRON." />
+  <meta name="twitter:image" content="https://tbull-swap.vercel.app/og.png" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "TBULL Swap",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "Web",
+    "url": "https://tbull-swap.vercel.app/",
+    "description": "TBULL Swap is a TRON-native DEX aggregator for TRC20 token swaps with integrated staking and rewards.",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "What is TBULL Swap?", "acceptedAnswer": { "@type": "Answer", "text": "TBULL Swap is a TRON-native DEX aggregator that finds the best TRC20 token swap routes across all major TRON liquidity pools and earns you staking rewards." } },
+      { "@type": "Question", "name": "How do I earn staking rewards on TBULL Swap?", "acceptedAnswer": { "@type": "Answer", "text": "Stake your TBULL tokens in the Staking widget, choose your lock period, and earn up to 42% APY in TBULL rewards distributed daily." } }
+    ]
+  }
+  </script>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23FFD700'/%3E%3Cstop offset='1' stop-color='%23FF6B00'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='%230a0800'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-size='38' font-family='serif'%3E🐂%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg:       #06050a;
+      --bg2:      #0c0b14;
+      --bg3:      #110f1e;
+      --bg4:      #16142a;
+      --gold:     #FFD700;
+      --gold2:    #FFA500;
+      --amber:    #FF8C00;
+      --bull-red: #c0392b;
+      --emerald:  #00e5a0;
+      --tron-red: #E84142;
+      --text:     #f0ead8;
+      --muted:    #7a7060;
+      --b1:       rgba(255,215,0,.12);
+      --b2:       rgba(255,255,255,.06);
+      --b3:       rgba(255,215,0,.06);
+      --fh:       'Syne', sans-serif;
+      --fd:       'Bebas Neue', sans-serif;
+      --fm:       'JetBrains Mono', monospace;
+      --r:        14px;
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--fh);
+      overflow-x: hidden;
+      line-height: 1.65;
+    }
+    a { color: inherit; text-decoration: none; }
+
+    /* ── CANVAS BG ── */
+    #bg-canvas { position: fixed; inset: 0; z-index: 0; pointer-events: none; }
+
+    .bg-mesh {
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      background:
+        radial-gradient(ellipse 70% 60% at 15% 10%, rgba(255,165,0,.06) 0%, transparent 60%),
+        radial-gradient(ellipse 55% 50% at 85% 90%, rgba(255,215,0,.05) 0%, transparent 55%),
+        radial-gradient(ellipse 40% 40% at 50% 50%, rgba(232,65,66,.04) 0%, transparent 55%);
+    }
+
+    /* Hexagon grid overlay */
+    .hex-grid {
+      position: fixed; inset: 0; z-index: 0; pointer-events: none; opacity: .35;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='100'%3E%3Cpath d='M28 0 L56 16 L56 48 L28 64 L0 48 L0 16 Z' fill='none' stroke='rgba(255,215,0,0.04)' stroke-width='1'/%3E%3C/svg%3E");
+      background-size: 56px 64px;
+    }
+
+    /* ── LAYOUT ── */
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 0 28px; position: relative; z-index: 2; }
+    section { position: relative; z-index: 2; }
+
+    /* ── HEADER ── */
+    header {
+      position: sticky; top: 0; z-index: 300;
+      backdrop-filter: blur(28px) saturate(200%);
+      background: rgba(6,5,10,.92);
+      border-bottom: 1px solid var(--b1);
+    }
+    .nav-row { display: flex; align-items: center; justify-content: space-between; height: 72px; }
+
+    .logo {
+      display: flex; align-items: center; gap: 12px;
+      font-family: var(--fd); font-size: 1.8rem; letter-spacing: .08em;
+    }
+    .logo-icon {
+      width: 40px; height: 40px; border-radius: 10px;
+      background: linear-gradient(135deg, var(--gold), var(--amber));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.4rem; box-shadow: 0 0 20px rgba(255,215,0,.3);
+      flex-shrink: 0;
+    }
+    .logo .t { color: var(--gold); }
+    .logo .b { color: var(--text); }
+    .logo .s { color: var(--gold2); }
+
+    nav { display: flex; align-items: center; gap: 2px; }
+    nav a {
+      font-family: var(--fm); font-size: .7rem; letter-spacing: .06em; text-transform: uppercase;
+      color: var(--muted); padding: 8px 14px; border-radius: 8px;
+      transition: color .2s, background .2s;
+    }
+    nav a:hover { color: var(--gold); background: rgba(255,215,0,.06); }
+
+    .btn-connect {
+      font-family: var(--fh); font-weight: 700; font-size: .8rem;
+      letter-spacing: .06em; text-transform: uppercase;
+      padding: 10px 22px; border-radius: 10px; border: 1px solid rgba(255,215,0,.4); cursor: pointer;
+      background: linear-gradient(135deg, rgba(255,215,0,.15), rgba(255,140,0,.1));
+      color: var(--gold); box-shadow: 0 0 18px rgba(255,215,0,.15);
+      transition: transform .15s, box-shadow .2s, background .2s;
+    }
+    .btn-connect:hover {
+      transform: translateY(-2px);
+      background: linear-gradient(135deg, rgba(255,215,0,.25), rgba(255,140,0,.2));
+      box-shadow: 0 0 30px rgba(255,215,0,.35);
+    }
+
+    /* ── HERO ── */
+    .hero { min-height: 100vh; display: flex; align-items: center; padding: 120px 0 80px; }
+    .hero-inner { display: grid; grid-template-columns: 1fr 1.05fr; gap: 64px; align-items: center; }
+
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 9px;
+      font-family: var(--fm); font-size: .68rem; letter-spacing: .1em; text-transform: uppercase;
+      color: var(--gold); background: rgba(255,215,0,.07); border: 1px solid rgba(255,215,0,.2);
+      padding: 7px 16px; border-radius: 100px; margin-bottom: 28px;
+    }
+    .hero-badge::before { content:''; width:7px; height:7px; border-radius:50%; background:var(--gold); animation:pulse-dot 2s infinite; }
+
+    .hero h1 {
+      font-family: var(--fd);
+      font-size: clamp(3.5rem, 7vw, 6rem);
+      line-height: .95; letter-spacing: .04em; margin-bottom: 24px;
+    }
+    .h-g { background: linear-gradient(90deg, var(--gold), var(--amber), var(--gold)); background-size: 200%; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: shimmer 3s linear infinite; }
+    .h-r { color: var(--tron-red); }
+    .h-e { color: var(--emerald); }
+
+    .hero p { font-size: 1rem; color: var(--muted); max-width: 480px; line-height: 1.82; margin-bottom: 36px; }
+
+    .hero-btns { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 50px; }
+    .btn-main {
+      font-family: var(--fh); font-weight: 700; font-size: .88rem;
+      letter-spacing: .06em; text-transform: uppercase;
+      padding: 14px 32px; border-radius: var(--r); border: none; cursor: pointer;
+      background: linear-gradient(135deg, var(--gold), var(--amber));
+      color: #06050a; box-shadow: 0 4px 28px rgba(255,215,0,.3);
+      transition: transform .15s, box-shadow .2s;
+    }
+    .btn-main:hover { transform: translateY(-3px); box-shadow: 0 8px 44px rgba(255,215,0,.5); }
+    .btn-ghost {
+      font-family: var(--fh); font-weight: 600; font-size: .88rem;
+      letter-spacing: .05em; text-transform: uppercase;
+      padding: 13px 28px; border-radius: var(--r); cursor: pointer;
+      background: transparent; color: var(--text); border: 1px solid rgba(255,255,255,.12);
+      transition: border-color .2s, color .2s, background .2s;
+    }
+    .btn-ghost:hover { border-color: var(--gold); color: var(--gold); background: rgba(255,215,0,.05); }
+
+    .hero-kpis { display: flex; gap: 16px; flex-wrap: wrap; }
+    .kpi {
+      padding: 16px 22px; background: var(--bg2); border: 1px solid var(--b1); border-radius: 14px;
+      min-width: 120px; position: relative; overflow: hidden;
+    }
+    .kpi::after {
+      content:''; position:absolute; top:0; left:0; right:0; height:2px;
+      background: linear-gradient(90deg, var(--gold), var(--amber));
+    }
+    .kpi-n { font-family: var(--fd); font-size: 1.9rem; letter-spacing: .02em; color: var(--gold); line-height: 1; }
+    .kpi-l { font-family: var(--fm); font-size: .63rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
+
+    /* ── SWAP CARD ── */
+    .swap-card {
+      background: var(--bg2);
+      border: 1px solid var(--b1);
+      border-radius: 28px;
+      padding: 28px;
+      box-shadow: 0 0 60px rgba(255,215,0,.08), 0 0 120px rgba(255,140,0,.05);
+      position: relative; overflow: hidden;
+      animation: float-anim 7s ease-in-out infinite;
+    }
+    .swap-card::before {
+      content:''; position:absolute; inset:-1px; border-radius:29px;
+      background: linear-gradient(135deg, rgba(255,215,0,.18), rgba(255,140,0,.1), transparent 60%);
+      z-index:-1;
+    }
+    .swap-card::after {
+      content:'🐂'; position:absolute; right:-10px; bottom:-20px;
+      font-size: 8rem; opacity: .04; pointer-events:none; user-select:none;
+      transform: scaleX(-1);
+    }
+
+    .sc-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 22px; }
+    .sc-title { font-family: var(--fd); font-size: 1.5rem; letter-spacing: .05em; color: var(--gold); }
+    .sc-badge {
+      font-family: var(--fm); font-size: .62rem; padding: 4px 10px;
+      border-radius: 100px; border: 1px solid rgba(0,229,160,.3); color: var(--emerald);
+      background: rgba(0,229,160,.06); letter-spacing: .06em;
+    }
+
+    .token-row {
+      background: var(--bg3); border: 1px solid var(--b2); border-radius: 16px;
+      padding: 16px 18px; margin-bottom: 8px;
+      transition: border-color .2s;
+    }
+    .token-row:hover { border-color: rgba(255,215,0,.2); }
+    .tr-label { font-family: var(--fm); font-size: .63rem; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+    .tr-inner { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+
+    .tok-select {
+      display: flex; align-items: center; gap: 10px;
+      background: var(--bg4); border: 1px solid var(--b2); border-radius: 11px;
+      padding: 9px 14px; cursor: pointer; min-width: 148px;
+      transition: border-color .2s, box-shadow .2s;
+    }
+    .tok-select:hover { border-color: rgba(255,215,0,.3); box-shadow: 0 0 12px rgba(255,215,0,.08); }
+    .tok-ico { width: 26px; height: 26px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: .9rem; flex-shrink: 0; }
+    .tok-info .sym { font-weight: 700; font-size: .9rem; }
+    .tok-info .net { font-family: var(--fm); font-size: .6rem; color: var(--muted); }
+    .tok-caret { margin-left: auto; color: var(--muted); font-size: .65rem; }
+
+    .tok-amount {
+      background: transparent; border: none; outline: none;
+      font-family: var(--fd); font-size: 2rem; letter-spacing: .02em;
+      color: var(--text); text-align: right; width: 100%;
+    }
+
+    .tr-sub { display: flex; justify-content: space-between; margin-top: 8px; font-family: var(--fm); font-size: .67rem; color: var(--muted); }
+    .tr-sub .bal { cursor: pointer; transition: color .2s; }
+    .tr-sub .bal:hover { color: var(--gold); }
+
+    .sc-arrow { display: flex; justify-content: center; padding: 4px 0; }
+    .sc-arrow-btn {
+      width: 38px; height: 38px; border-radius: 11px;
+      background: linear-gradient(135deg, var(--gold), var(--amber));
+      border: 3px solid var(--bg2); cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 0 18px rgba(255,215,0,.25); transition: transform .4s;
+    }
+    .sc-arrow-btn:hover { transform: rotate(180deg); }
+
+    .sc-info { padding: 12px 0 4px; border-top: 1px solid var(--b2); margin-top: 4px; }
+    .sc-info-row {
+      display: flex; justify-content: space-between;
+      font-family: var(--fm); font-size: .69rem; color: var(--muted); padding: 4px 0;
+    }
+    .sc-info-row .v { color: var(--gold); }
+    .sc-info-row .good { color: var(--emerald); }
+
+    .slippage-row { display: flex; gap: 6px; margin: 14px 0; }
+    .slip-btn {
+      font-family: var(--fm); font-size: .67rem; padding: 5px 12px;
+      border-radius: 8px; border: 1px solid var(--b2); background: transparent;
+      color: var(--muted); cursor: pointer; transition: all .2s;
+    }
+    .slip-btn.active, .slip-btn:hover { background: rgba(255,215,0,.1); border-color: rgba(255,215,0,.4); color: var(--gold); }
+
+    .btn-swap-now {
+      width: 100%; padding: 16px;
+      font-family: var(--fd); font-size: 1.3rem; letter-spacing: .1em;
+      background: linear-gradient(135deg, var(--gold), var(--amber));
+      color: #06050a; border: none; border-radius: 14px; cursor: pointer;
+      box-shadow: 0 4px 28px rgba(255,215,0,.25);
+      transition: transform .15s, box-shadow .2s; margin-top: 8px;
+    }
+    .btn-swap-now:hover { transform: translateY(-2px); box-shadow: 0 8px 48px rgba(255,215,0,.45); }
+
+    .sc-footer { display: flex; justify-content: center; gap: 20px; margin-top: 14px; font-family: var(--fm); font-size: .63rem; color: var(--muted); }
+    .sc-footer span { display: flex; align-items: center; gap: 5px; }
+    .sc-footer span::before { content: '✓'; color: var(--emerald); font-weight: 700; }
+
+    /* ── TICKER ── */
+    .ticker-wrap { border-top: 1px solid var(--b1); border-bottom: 1px solid var(--b1); background: rgba(12,11,20,.95); overflow: hidden; padding: 11px 0; }
+    .ticker-track { display: flex; gap: 56px; width: max-content; animation: ticker-run 36s linear infinite; }
+    .t-i { display: flex; align-items: center; gap: 8px; font-family: var(--fm); font-size: .73rem; color: var(--muted); white-space: nowrap; }
+    .t-i .d { width: 5px; height: 5px; border-radius: 50%; background: var(--gold); }
+    .t-i .v { color: var(--gold); font-weight: 500; }
+    .up { color: #4ade80; }
+    .dn { color: #f87171; }
+
+    /* ── STAKING WIDGET ── */
+    .staking-section { padding: 90px 0; }
+    .staking-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 28px; margin-top: 56px; }
+
+    .stake-card {
+      background: var(--bg2); border: 1px solid var(--b1); border-radius: 24px; padding: 32px;
+      position: relative; overflow: hidden;
+    }
+    .stake-card::before {
+      content:''; position:absolute; top:0; left:0; right:0; height:3px;
+      background: linear-gradient(90deg, var(--gold), var(--amber), var(--emerald));
+    }
+
+    .stake-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 28px; }
+    .stake-title { font-family: var(--fd); font-size: 1.6rem; letter-spacing: .05em; }
+    .apy-badge {
+      font-family: var(--fd); font-size: 1.4rem; letter-spacing: .05em;
+      color: var(--emerald); background: rgba(0,229,160,.08);
+      border: 1px solid rgba(0,229,160,.25); border-radius: 10px;
+      padding: 6px 14px;
+    }
+
+    .stake-tabs { display: flex; gap: 4px; background: var(--bg3); border-radius: 10px; padding: 4px; margin-bottom: 24px; }
+    .stake-tab {
+      flex: 1; font-family: var(--fm); font-size: .7rem; letter-spacing: .05em; text-transform: uppercase;
+      padding: 8px; border-radius: 7px; border: none; background: transparent;
+      color: var(--muted); cursor: pointer; transition: all .2s;
+    }
+    .stake-tab.active { background: linear-gradient(135deg, rgba(255,215,0,.18), rgba(255,140,0,.12)); color: var(--gold); border: 1px solid rgba(255,215,0,.2); }
+
+    .stake-input-wrap {
+      background: var(--bg3); border: 1px solid var(--b2); border-radius: 14px; padding: 18px;
+      margin-bottom: 16px; transition: border-color .2s;
+    }
+    .stake-input-wrap:focus-within { border-color: rgba(255,215,0,.3); }
+    .sil { font-family: var(--fm); font-size: .62rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+    .si-inner { display: flex; align-items: center; gap: 10px; }
+    .stake-amt {
+      background: transparent; border: none; outline: none;
+      font-family: var(--fd); font-size: 1.8rem; letter-spacing: .02em; color: var(--text); flex: 1;
+    }
+    .si-tok { font-family: var(--fm); font-size: .75rem; font-weight: 600; color: var(--gold); background: rgba(255,215,0,.08); border: 1px solid rgba(255,215,0,.2); border-radius: 7px; padding: 5px 10px; }
+    .si-bal { font-family: var(--fm); font-size: .64rem; color: var(--muted); margin-top: 6px; cursor: pointer; transition: color .2s; }
+    .si-bal:hover { color: var(--gold); }
+
+    .lock-periods { display: flex; gap: 6px; margin-bottom: 20px; }
+    .lp-btn {
+      flex: 1; font-family: var(--fm); font-size: .65rem; letter-spacing: .04em;
+      padding: 8px 4px; border-radius: 9px; border: 1px solid var(--b2);
+      background: transparent; color: var(--muted); cursor: pointer; text-align: center; transition: all .2s;
+    }
+    .lp-btn span { display: block; font-size: .78rem; font-weight: 600; color: var(--gold); opacity: .5; margin-top: 2px; }
+    .lp-btn.active, .lp-btn:hover { border-color: rgba(255,215,0,.35); background: rgba(255,215,0,.07); color: var(--text); }
+    .lp-btn.active span, .lp-btn:hover span { opacity: 1; }
+
+    .stake-preview { background: var(--bg3); border: 1px solid var(--b2); border-radius: 12px; padding: 14px 16px; margin-bottom: 20px; }
+    .sp-row { display: flex; justify-content: space-between; font-family: var(--fm); font-size: .7rem; color: var(--muted); padding: 3px 0; }
+    .sp-row .spv { color: var(--gold); }
+    .sp-row .spg { color: var(--emerald); }
+
+    .btn-stake {
+      width: 100%; padding: 15px;
+      font-family: var(--fd); font-size: 1.2rem; letter-spacing: .1em;
+      background: linear-gradient(135deg, var(--emerald), #00b87a);
+      color: #06050a; border: none; border-radius: 12px; cursor: pointer;
+      box-shadow: 0 4px 24px rgba(0,229,160,.2);
+      transition: transform .15s, box-shadow .2s;
+    }
+    .btn-stake:hover { transform: translateY(-2px); box-shadow: 0 8px 40px rgba(0,229,160,.35); }
+
+    /* rewards panel */
+    .rewards-panel { display: flex; flex-direction: column; gap: 14px; }
+
+    .reward-stat {
+      background: var(--bg3); border: 1px solid var(--b2); border-radius: 16px; padding: 22px 24px;
+      display: flex; align-items: center; gap: 18px;
+      transition: border-color .2s, transform .2s;
+    }
+    .reward-stat:hover { border-color: rgba(255,215,0,.25); transform: translateX(4px); }
+    .rs-icon { font-size: 2rem; flex-shrink: 0; }
+    .rs-info {}
+    .rs-val { font-family: var(--fd); font-size: 1.7rem; letter-spacing: .02em; color: var(--gold); line-height: 1; }
+    .rs-lbl { font-family: var(--fm); font-size: .65rem; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); margin-top: 3px; }
+
+    .pool-info { background: var(--bg3); border: 1px solid var(--b2); border-radius: 16px; padding: 22px 24px; }
+    .pi-title { font-family: var(--fm); font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 14px; }
+    .pi-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--b2); }
+    .pi-row:last-child { border-bottom: none; }
+    .pi-name { font-weight: 700; font-size: .88rem; }
+    .pi-apy { font-family: var(--fd); font-size: 1.1rem; color: var(--emerald); }
+    .pi-tvl { font-family: var(--fm); font-size: .68rem; color: var(--muted); }
+
+    /* ── GENERIC SECTION ── */
+    .sec { padding: 90px 0; }
+    .sec-lbl { font-family: var(--fm); font-size: .68rem; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); margin-bottom: 10px; }
+    .sec-h { font-family: var(--fd); font-size: clamp(2.5rem, 4vw, 3.8rem); line-height: .95; letter-spacing: .04em; margin-bottom: 16px; }
+    .sec-sub { font-size: .97rem; color: var(--muted); max-width: 560px; line-height: 1.8; }
+    .sec-center { text-align: center; }
+    .sec-center .sec-sub { margin: 0 auto; }
+
+    /* ── FEATURES ── */
+    .features-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin-top: 54px; }
+    .feat {
+      background: var(--bg2); border: 1px solid var(--b2); border-radius: 20px;
+      padding: 30px 26px; transition: border-color .25s, transform .25s, box-shadow .25s;
+      position: relative; overflow: hidden;
+    }
+    .feat::after { content:''; position:absolute; inset:0; border-radius:20px; background: linear-gradient(135deg, rgba(255,215,0,.03), transparent); pointer-events:none; }
+    .feat:hover { border-color: rgba(255,215,0,.3); transform: translateY(-6px); box-shadow: 0 16px 40px rgba(255,215,0,.07); }
+    .feat-ico { font-size: 2.2rem; margin-bottom: 18px; }
+    .feat h3 { font-weight: 700; font-size: 1.05rem; margin-bottom: 10px; letter-spacing: -.01em; }
+    .feat p { font-size: .86rem; color: var(--muted); line-height: 1.72; }
+
+    /* ── ROUTES ── */
+    .routes-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 14px; margin-top: 52px; }
+    .route-card {
+      background: var(--bg2); border: 1px solid var(--b2); border-radius: 16px; padding: 20px 22px;
+      display: flex; align-items: center; justify-content: space-between;
+      transition: border-color .2s, transform .2s, box-shadow .2s;
+    }
+    .route-card:hover { border-color: var(--b1); transform: translateX(5px); box-shadow: 0 8px 24px rgba(255,215,0,.05); }
+    .route-left { display: flex; align-items: center; gap: 14px; }
+    .route-icons { display: flex; }
+    .ri { width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: .88rem; }
+    .ri:nth-child(2) { margin-left: -9px; border: 2px solid var(--bg2); }
+    .route-name { font-weight: 700; font-size: .94rem; }
+    .route-chain { font-family: var(--fm); font-size: .63rem; color: var(--muted); }
+    .route-vol { font-family: var(--fd); font-size: 1.1rem; letter-spacing: .03em; color: var(--gold); }
+
+    /* ── CHAINS BAND ── */
+    .chains-list { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 46px; }
+    .chain-pill {
+      display: flex; align-items: center; gap: 9px;
+      background: var(--bg2); border: 1px solid var(--b2); border-radius: 100px;
+      padding: 9px 20px; font-family: var(--fm); font-size: .75rem;
+      transition: border-color .2s, color .2s, box-shadow .2s;
+    }
+    .chain-pill:hover { border-color: rgba(255,215,0,.35); color: var(--gold); box-shadow: 0 4px 14px rgba(255,215,0,.06); }
+    .cp-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+
+    /* ── CTA ── */
+    .cta-banner { padding: 70px 0; }
+    .cta-inner {
+      background: linear-gradient(135deg, rgba(255,215,0,.07), rgba(255,140,0,.06), rgba(232,65,66,.04));
+      border: 1px solid var(--b1); border-radius: 30px; padding: 64px 60px;
+      display: flex; align-items: center; justify-content: space-between; gap: 48px;
+      position: relative; overflow: hidden;
+    }
+    .cta-inner::before {
+      content:'🐂'; position:absolute; right:40px; bottom:-40px;
+      font-size: 14rem; opacity: .04; pointer-events:none; user-select:none; transform: scaleX(-1);
+    }
+    .cta-inner::after {
+      content:''; position:absolute; right:-60px; top:-60px;
+      width:300px; height:300px; border-radius:50%;
+      background: radial-gradient(circle, rgba(255,215,0,.07) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .cta-h { font-family: var(--fd); font-size: 2.8rem; letter-spacing: .04em; margin-bottom: 12px; line-height: .95; }
+    .cta-p { color: var(--muted); max-width: 420px; font-size: .96rem; }
+    .cta-btns { display: flex; flex-direction: column; gap: 12px; align-items: center; flex-shrink: 0; }
+
+    /* ── FAQ ── */
+    .faq-section { padding: 100px 0; }
+    .faq-wrap { max-width: 860px; margin: 54px auto 0; }
+    .faq-item { border: 1px solid var(--b2); border-radius: var(--r); margin-bottom: 10px; overflow: hidden; }
+    .faq-item.open { border-color: rgba(255,215,0,.3); }
+    .faq-q {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 20px 26px; cursor: pointer; background: var(--bg2); font-weight: 600; font-size: .96rem;
+      transition: background .2s;
+    }
+    .faq-q:hover { background: rgba(255,215,0,.03); }
+    .faq-ic {
+      width: 28px; height: 28px; border-radius: 50%; border: 1px solid var(--b2);
+      display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+      font-size: 1.1rem; color: var(--gold); transition: transform .3s, border-color .2s;
+    }
+    .faq-item.open .faq-ic { transform: rotate(45deg); border-color: rgba(255,215,0,.4); }
+    .faq-a { max-height: 0; overflow: hidden; transition: max-height .4s ease; background: var(--bg3); }
+    .faq-a-inner { padding: 18px 26px 24px; color: var(--muted); font-size: .91rem; line-height: 1.8; }
+    .faq-item.open .faq-a { max-height: 400px; }
+
+    /* ── FOOTER ── */
+    footer { background: var(--bg2); border-top: 1px solid var(--b2); padding: 64px 0 30px; }
+    .ft-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 52px; margin-bottom: 52px; }
+    .ft-brand p { font-size: .86rem; color: var(--muted); margin-top: 16px; max-width: 280px; line-height: 1.72; }
+    .ft-col h5 { font-family: var(--fd); font-size: 1rem; letter-spacing: .08em; margin-bottom: 18px; color: var(--gold); }
+    .ft-col a { display: block; font-size: .84rem; color: var(--muted); margin-bottom: 11px; transition: color .2s; }
+    .ft-col a:hover { color: var(--gold); }
+    .ft-bot {
+      border-top: 1px solid var(--b2); padding-top: 28px;
+      display: flex; justify-content: space-between; align-items: center;
+      font-family: var(--fm); font-size: .69rem; color: var(--muted);
+    }
+    .ft-bot a:hover { color: var(--gold); }
+
+    /* ── DECORATIVE ── */
+    .divider {
+      height: 1px; background: linear-gradient(90deg, transparent, rgba(255,215,0,.2), transparent);
+      margin: 0 var(--wrap-pad, 0);
+    }
+
+    /* ── ANIMATIONS ── */
+    @keyframes pulse-dot { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.3;transform:scale(.65)} }
+    @keyframes float-anim { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-14px)} }
+    @keyframes ticker-run { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+    @keyframes fade-up { from{opacity:0;transform:translateY(30px)} to{opacity:1;transform:translateY(0)} }
+    @keyframes shimmer { 0%{background-position:0% 50%} 100%{background-position:200% 50%} }
+    @keyframes glow-pulse { 0%,100%{opacity:.4} 50%{opacity:.8} }
+
+    .anim { animation: fade-up .8s ease both; }
+    .d1{animation-delay:.1s} .d2{animation-delay:.22s} .d3{animation-delay:.34s}
+
+    /* ── RESPONSIVE ── */
+    @media(max-width:980px) {
+      .hero-inner { grid-template-columns:1fr; }
+      .swap-card { max-width: 500px; }
+      .staking-grid { grid-template-columns: 1fr; }
+      .features-grid { grid-template-columns: 1fr 1fr; }
+      .routes-grid { grid-template-columns: 1fr; }
+      .ft-grid { grid-template-columns: 1fr 1fr; }
+      .cta-inner { flex-direction: column; padding: 40px 30px; }
+    }
+    @media(max-width:600px) {
+      .features-grid { grid-template-columns: 1fr; }
+      nav { display: none; }
+      .lock-periods { flex-wrap: wrap; }
+    }
+  </style>
+</head>
+<body>
+
+<canvas id="bg-canvas" aria-hidden="true"></canvas>
+<div class="bg-mesh" aria-hidden="true"></div>
+<div class="hex-grid" aria-hidden="true"></div>
+
+<!-- ═══ HEADER ═══ -->
+<header>
+  <div class="wrap">
+    <div class="nav-row">
+      <a href="https://tbull-swap.vercel.app/" class="logo" aria-label="TBULL Swap Home">
+        <div class="logo-icon">🐂</div>
+        <span class="t">T</span><span class="b">BULL</span><span class="s"> SWAP</span>
+      </a>
+
+      <nav role="navigation" aria-label="Main navigation">
+        <a href="#swap">Swap</a>
+        <a href="#staking">Staking</a>
+        <a href="#routes">Routes</a>
+        <a href="#chains">Chains</a>
+        <a href="#features">Features</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <button class="btn-connect xsudlmqvbag x2wl7trk" aria-label="Connect TronLink Wallet">Connect Wallet</button>
+    </div>
+  </div>
+</header>
+
+<!-- ═══ HERO ═══ -->
+<main>
+<section class="hero" aria-labelledby="hero-h1" id="swap">
+  <div class="wrap">
+    <div class="hero-inner">
+
+      <!-- Left -->
+      <div class="anim">
+        <div class="hero-badge">TBULL Swap — TRON's Premier DEX Aggregator</div>
+        <h1 id="hero-h1">
+          <span class="h-g">TBULL</span><br/>
+          SWAP<br/>
+          <span style="font-size:.6em;letter-spacing:.06em;">ON <span class="h-r">TRON</span></span>
+        </h1>
+        <p>TBULL Swap finds the best TRC20 token swap routes across all major TRON liquidity pools instantly — lowest slippage, best rates, ultra-cheap fees. Stake TBULL and earn up to 42% APY in daily rewards.</p>
+
+        <div class="hero-btns">
+          <button class="btn-main xsudlmqvbag x2wl7trk" aria-label="Start swapping on TRON">🐂 Start Swapping</button>
+          <button class="btn-ghost xsudlmqvbag" aria-label="View staking pools">💎 Stake & Earn</button>
+        </div>
+
+        <div class="hero-kpis" role="list" aria-label="TBULL Swap statistics">
+          <div class="kpi" role="listitem"><div class="kpi-n">$2.1B+</div><div class="kpi-l">Volume</div></div>
+          <div class="kpi" role="listitem"><div class="kpi-n">42%</div><div class="kpi-l">Max APY</div></div>
+          <div class="kpi" role="listitem"><div class="kpi-n">120+</div><div class="kpi-l">Pools</div></div>
+          <div class="kpi" role="listitem"><div class="kpi-n">$0.001</div><div class="kpi-l">Avg Fee</div></div>
+        </div>
+      </div>
+
+      <!-- Right — Swap card -->
+      <div class="swap-card anim d2" aria-label="TBULL Token swap interface">
+        <div class="sc-top">
+          <span class="sc-title">⚡ Swap</span>
+          <span class="sc-badge">● TRON Live</span>
+        </div>
+
+        <!-- From -->
+        <div class="token-row">
+          <div class="tr-label">You Pay</div>
+          <div class="tr-inner">
+            <div class="tok-select" role="button" tabindex="0" aria-label="Select source token">
+              <div class="tok-ico" style="background:#26a17b">₮</div>
+              <div class="tok-info">
+                <div class="sym">USDT</div>
+                <div class="net">TRC-20</div>
+              </div>
+              <span class="tok-caret">▾</span>
+            </div>
+            <input class="tok-amount" type="text" value="500" aria-label="Amount to swap" inputmode="decimal" />
+          </div>
+          <div class="tr-sub">
+            <span>≈ $500.00</span>
+            <span class="bal" title="Use max balance">Bal: 1,240.00 USDT</span>
+          </div>
+        </div>
+
+        <!-- Arrow -->
+        <div class="sc-arrow">
+          <button class="sc-arrow-btn" aria-label="Switch swap direction">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#06050a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 014-4h14"/>
+              <polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 01-4 4H3"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- To -->
+        <div class="token-row">
+          <div class="tr-label">You Receive</div>
+          <div class="tr-inner">
+            <div class="tok-select" role="button" tabindex="0" aria-label="Select TBULL token">
+              <div class="tok-ico" style="background:linear-gradient(135deg,#FFD700,#FF8C00)">🐂</div>
+              <div class="tok-info">
+                <div class="sym">TBULL</div>
+                <div class="net">TRC-20</div>
+              </div>
+              <span class="tok-caret">▾</span>
+            </div>
+            <input class="tok-amount" type="text" value="24,875.50" aria-label="Amount to receive" readonly />
+          </div>
+          <div class="tr-sub">
+            <span>≈ $499.48</span>
+            <span style="color:var(--emerald);font-size:.63rem;font-family:var(--fm)">Best route ✓</span>
+          </div>
+        </div>
+
+        <!-- Info -->
+        <div class="sc-info">
+          <div class="sc-info-row"><span>Rate</span><span class="v">1 USDT = 49.75 TBULL</span></div>
+          <div class="sc-info-row"><span>Price Impact</span><span class="good">&lt;0.01%</span></div>
+          <div class="sc-info-row"><span>Route</span><span class="v">USDT → SunSwap → TBULL</span></div>
+          <div class="sc-info-row"><span>Network Fee</span><span class="v">~$0.001</span></div>
+        </div>
+
+        <!-- Slippage -->
+        <div style="margin-top:14px">
+          <div style="font-family:var(--fm);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:8px">Slippage Tolerance</div>
+          <div class="slippage-row" role="group" aria-label="Slippage tolerance">
+            <button class="slip-btn" aria-pressed="false">0.1%</button>
+            <button class="slip-btn active" aria-pressed="true">0.5%</button>
+            <button class="slip-btn" aria-pressed="false">1.0%</button>
+            <button class="slip-btn" aria-pressed="false">Auto</button>
+          </div>
+        </div>
+
+        <button class="btn-swap-now xsudlmqvbag x2wl7trk" aria-label="Swap tokens now on TBULL Swap">🐂 SWAP NOW</button>
+
+        <div class="sc-footer">
+          <span>MEV Protected</span>
+          <span>Non-Custodial</span>
+          <span>Best Rate</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TICKER ═══ -->
+<div class="ticker-wrap" aria-hidden="true">
+  <div class="ticker-track">
+    <div class="t-i"><span class="d"></span>TBULL <span class="v">$0.02015</span><span class="up">+8.4%</span></div>
+    <div class="t-i"><span class="d"></span>USDT TRC20 <span class="v">$1.0001</span><span class="up">+0.01%</span></div>
+    <div class="t-i"><span class="d"></span>TBULL/TRX Pool <span class="v">$4.2M TVL</span></div>
+    <div class="t-i"><span class="d"></span>BTT <span class="v">$0.0000014</span><span class="up">+6.1%</span></div>
+    <div class="t-i"><span class="d"></span>JST <span class="v">$0.0285</span><span class="dn">-0.9%</span></div>
+    <div class="t-i"><span class="d"></span>TBULL Stakers <span class="v">18,420</span></div>
+    <div class="t-i"><span class="d"></span>SUN <span class="v">$0.0182</span><span class="up">+3.2%</span></div>
+    <div class="t-i"><span class="d"></span>WIN <span class="v">$0.000091</span><span class="up">+1.8%</span></div>
+    <div class="t-i"><span class="d"></span>24h TBULL Volume <span class="v">$840K</span></div>
+    <div class="t-i"><span class="d"></span>Swaps Today <span class="v">142,800</span></div>
+    <div class="t-i"><span class="d"></span>Staking APY <span class="v">up to 42%</span></div>
+    <!-- dup for seamless loop -->
+    <div class="t-i"><span class="d"></span>TBULL <span class="v">$0.02015</span><span class="up">+8.4%</span></div>
+    <div class="t-i"><span class="d"></span>USDT TRC20 <span class="v">$1.0001</span><span class="up">+0.01%</span></div>
+    <div class="t-i"><span class="d"></span>TBULL/TRX Pool <span class="v">$4.2M TVL</span></div>
+    <div class="t-i"><span class="d"></span>BTT <span class="v">$0.0000014</span><span class="up">+6.1%</span></div>
+    <div class="t-i"><span class="d"></span>JST <span class="v">$0.0285</span><span class="dn">-0.9%</span></div>
+    <div class="t-i"><span class="d"></span>TBULL Stakers <span class="v">18,420</span></div>
+    <div class="t-i"><span class="d"></span>SUN <span class="v">$0.0182</span><span class="up">+3.2%</span></div>
+    <div class="t-i"><span class="d"></span>WIN <span class="v">$0.000091</span><span class="up">+1.8%</span></div>
+    <div class="t-i"><span class="d"></span>24h TBULL Volume <span class="v">$840K</span></div>
+    <div class="t-i"><span class="d"></span>Swaps Today <span class="v">142,800</span></div>
+    <div class="t-i"><span class="d"></span>Staking APY <span class="v">up to 42%</span></div>
+  </div>
+</div>
+
+<!-- ═══ STAKING / REWARDS ═══ -->
+<section class="staking-section sec" id="staking" aria-label="TBULL Staking and Rewards">
+  <div class="wrap">
+    <div class="sec-center">
+      <div class="sec-lbl">Staking & Rewards</div>
+      <h2 class="sec-h">Put Your TBULL<br/>to Work</h2>
+      <p class="sec-sub">Stake TBULL tokens and earn up to 42% APY in daily distributed rewards. The longer you stake, the more you earn. Fully non-custodial, always on TRON.</p>
+    </div>
+
+    <div class="staking-grid">
+      <!-- Stake Card -->
+      <div class="stake-card">
+        <div class="stake-header">
+          <span class="stake-title">🐂 Stake TBULL</span>
+          <span class="apy-badge">42% APY</span>
+        </div>
+
+        <div class="stake-tabs">
+          <button class="stake-tab active" onclick="setStakeTab(this,'stake')">Stake</button>
+          <button class="stake-tab" onclick="setStakeTab(this,'unstake')">Unstake</button>
+          <button class="stake-tab" onclick="setStakeTab(this,'claim')">Claim</button>
+        </div>
+
+        <div class="stake-input-wrap">
+          <div class="sil">Amount to Stake</div>
+          <div class="si-inner">
+            <input class="stake-amt" id="stakeAmt" type="text" value="10000" oninput="updatePreview()" aria-label="Staking amount" inputmode="decimal" />
+            <span class="si-tok">TBULL</span>
+          </div>
+          <div class="si-bal" onclick="document.getElementById('stakeAmt').value='58200';updatePreview()">Bal: 58,200 TBULL · Max</div>
+        </div>
+
+        <div style="font-family:var(--fm);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:8px">Lock Period</div>
+        <div class="lock-periods">
+          <button class="lp-btn" onclick="setLock(this,8,'7D')">7 Days<span>8% APY</span></button>
+          <button class="lp-btn active" onclick="setLock(this,18,'30D')">30 Days<span>18% APY</span></button>
+          <button class="lp-btn" onclick="setLock(this,30,'90D')">90 Days<span>30% APY</span></button>
+          <button class="lp-btn" onclick="setLock(this,42,'365D')">1 Year<span>42% APY</span></button>
+        </div>
+
+        <div class="stake-preview">
+          <div class="sp-row"><span>Staking Amount</span><span class="spv" id="prev-amt">10,000 TBULL</span></div>
+          <div class="sp-row"><span>Lock Period</span><span class="spv" id="prev-lock">30 Days</span></div>
+          <div class="sp-row"><span>APY</span><span class="spg" id="prev-apy">18% APY</span></div>
+          <div class="sp-row"><span>Est. Rewards</span><span class="spg" id="prev-reward">~148.77 TBULL / month</span></div>
+          <div class="sp-row"><span>Unlock Date</span><span class="spv" id="prev-unlock">June 5, 2026</span></div>
+        </div>
+
+        <button class="btn-stake xsudlmqvbag x2wl7trk" aria-label="Stake TBULL tokens">💎 STAKE TBULL</button>
+      </div>
+
+      <!-- Rewards Panel -->
+      <div class="rewards-panel">
+        <div class="reward-stat">
+          <div class="rs-icon">📊</div>
+          <div class="rs-info">
+            <div class="rs-val">$8.4M</div>
+            <div class="rs-lbl">Total Value Locked</div>
+          </div>
+        </div>
+        <div class="reward-stat">
+          <div class="rs-icon">🏆</div>
+          <div class="rs-info">
+            <div class="rs-val">18,420</div>
+            <div class="rs-lbl">Active Stakers</div>
+          </div>
+        </div>
+        <div class="reward-stat">
+          <div class="rs-icon">⚡</div>
+          <div class="rs-info">
+            <div class="rs-val">Daily</div>
+            <div class="rs-lbl">Rewards Distribution</div>
+          </div>
+        </div>
+
+        <div class="pool-info">
+          <div class="pi-title">Available Staking Pools</div>
+          <div class="pi-row">
+            <div>
+              <div class="pi-name">🐂 TBULL Flex</div>
+              <div class="pi-tvl">TVL $1.2M · No lock</div>
+            </div>
+            <div style="text-align:right">
+              <div class="pi-apy">8%</div>
+              <div class="pi-tvl">APY</div>
+            </div>
+          </div>
+          <div class="pi-row">
+            <div>
+              <div class="pi-name">🐂 TBULL Silver</div>
+              <div class="pi-tvl">TVL $2.1M · 30D lock</div>
+            </div>
+            <div style="text-align:right">
+              <div class="pi-apy">18%</div>
+              <div class="pi-tvl">APY</div>
+            </div>
+          </div>
+          <div class="pi-row">
+            <div>
+              <div class="pi-name">🐂 TBULL Gold</div>
+              <div class="pi-tvl">TVL $3.4M · 90D lock</div>
+            </div>
+            <div style="text-align:right">
+              <div class="pi-apy">30%</div>
+              <div class="pi-tvl">APY</div>
+            </div>
+          </div>
+          <div class="pi-row">
+            <div>
+              <div class="pi-name">🐂 TBULL Diamond</div>
+              <div class="pi-tvl">TVL $1.7M · 365D lock</div>
+            </div>
+            <div style="text-align:right">
+              <div class="pi-apy" style="font-size:1.4rem">42%</div>
+              <div class="pi-tvl">APY</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ═══ FEATURES ═══ -->
+<section class="sec" id="features" aria-label="TBULL Swap features">
+  <div class="wrap">
+    <div class="sec-center">
+      <div class="sec-lbl">Why TBULL Swap</div>
+      <h2 class="sec-h">Built for TRON.<br/>Built to Win.</h2>
+      <p class="sec-sub">TBULL Swap's intelligent routing scans all TRON DEX pools simultaneously — guaranteeing the best rate on every TRC20 swap.</p>
+    </div>
+
+    <div class="features-grid">
+      <article class="feat"><div class="feat-ico">🔀</div><h3>Smart TRON Routing</h3><p>Our aggregator splits orders across SunSwap, JustSwap, SunStable and all TRON DEX pools to minimize price impact and maximize your output on every trade.</p></article>
+      <article class="feat"><div class="feat-ico">🛡️</div><h3>MEV Protection</h3><p>TBULL Swap routes transactions privately, eliminating front-running and sandwich attacks. Your trades land clean, every single time.</p></article>
+      <article class="feat"><div class="feat-ico">⚡</div><h3>3-Second Finality</h3><p>TRON's ultra-fast block times make TBULL Swap the fastest DEX experience on any chain. Your tokens arrive before you blink.</p></article>
+      <article class="feat"><div class="feat-ico">💎</div><h3>Stake & Earn</h3><p>Stake TBULL tokens in flexible or locked pools and earn up to 42% APY in daily TBULL rewards. The most rewarding TRON DeFi experience.</p></article>
+      <article class="feat"><div class="feat-ico">💰</div><h3>Ultra-Low Fees</h3><p>TRON's bandwidth model means swaps cost fractions of a cent. TBULL Swap charges just 0.05% protocol fee — the lowest on TRON.</p></article>
+      <article class="feat"><div class="feat-ico">🔒</div><h3>Non-Custodial</h3><p>Your wallet, your keys, always. TBULL Swap smart contracts never hold your funds. Every swap settles atomically peer-to-pool on TRON.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TOP ROUTES ═══ -->
+<section class="sec" id="routes" aria-label="Top TBULL Swap routes">
+  <div class="wrap">
+    <div class="sec-center">
+      <div class="sec-lbl">Top Routes</div>
+      <h2 class="sec-h">Most Popular<br/>TBULL Swap Pairs</h2>
+      <p class="sec-sub">Highest-volume TRC20 token swap routes processed by TBULL Swap on TRON.</p>
+    </div>
+
+    <div class="routes-grid">
+      <div class="route-card"><div class="route-left"><div class="route-icons"><div class="ri" style="background:linear-gradient(135deg,#FFD700,#FF8C00)">🐂</div><div class="ri" style="background:#26a17b;border-color:var(--bg2)">₮</div></div><div><div class="route-name">TBULL → USDT TRC20</div><div class="route-chain">TRON Network</div></div></div><div class="route-vol">$12M/day</div></div>
+      <div class="route-card"><div class="route-left"><div class="route-icons"><div class="ri" style="background:#26a17b">₮</div><div class="ri" style="background:linear-gradient(135deg,#FFD700,#FF8C00);border-color:var(--bg2)">🐂</div></div><div><div class="route-name">USDT TRC20 → TBULL</div><div class="route-chain">TRON Network</div></div></div><div class="route-vol">$18M/day</div></div>
+      <div class="route-card"><div class="route-left"><div class="route-icons"><div class="ri" style="background:#e84142">T</div><div class="ri" style="background:linear-gradient(135deg,#FFD700,#FF8C00);border-color:var(--bg2)">🐂</div></div><div><div class="route-name">TRX → TBULL</div><div class="route-chain">TRON Network</div></div></div><div class="route-vol">$9M/day</div></div>
+      <div class="route-card"><div class="route-left"><div class="route-icons"><div class="ri" style="background:linear-gradient(135deg,#FFD700,#FF8C00)">🐂</div><div class="ri" style="background:#e84142;border-color:var(--bg2)">T</div></div><div><div class="route-name">TBULL → TRX</div><div class="route-chain">TRON Network</div></div></div><div class="route-vol">$7M/day</div></div>
+      <div class="route-card"><div class="route-left"><div class="route-icons"><div class="ri" style="background:#26a17b">₮</div><div class="ri" style="background:#26a17b;border-color:var(--bg2)">₮</div></div><div><div class="route-name">USDT TRC20 → USDD</div><div class="route-chain">TRON Network</div></div></div><div class="route-vol">$24M/day</div></div>
+      <div class="route-card"><div class="route-left"><div class="route-icons"><div class="ri" style="background:#627eea">Ξ</div><div class="ri" style="background:#26a17b;border-color:var(--bg2)">₮</div></div><div><div class="route-name">USDT ERC20 → TRC20</div><div class="route-chain">ETH → TRON</div></div></div><div class="route-vol">$31M/day</div></div>
+      <div class="route-card"><div class="route-left"><div class="route-icons"><div class="ri" style="background:#e84142">T</div><div class="ri" style="background:#26a17b;border-color:var(--bg2)">₮</div></div><div><div class="route-name">TRX → USDT TRC20</div><div class="route-chain">TRON Network</div></div></div><div class="route-vol">$48M/day</div></div>
+      <div class="route-card"><div class="route-left"><div class="route-icons"><div class="ri" style="background:#f0b90b">B</div><div class="ri" style="background:#26a17b;border-color:var(--bg2)">₮</div></div><div><div class="route-name">BNB → USDT TRC20</div><div class="route-chain">BNB → TRON</div></div></div><div class="route-vol">$16M/day</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CHAINS ═══ -->
+<section class="sec sec-center" id="chains" aria-label="Supported blockchains">
+  <div class="wrap">
+    <div class="sec-lbl">Networks</div>
+    <h2 class="sec-h">TRON-First.<br/>But Not TRON-Only.</h2>
+    <p class="sec-sub" style="margin:0 auto">TBULL Swap is optimized for TRON TRC20 swaps, with bridges to all major chains for cross-chain convenience.</p>
+    <div class="chains-list" role="list">
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#e84142"></span>TRON (Native)</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#26a17b"></span>USDT TRC20</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#FFD700"></span>TBULL TRC20</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#e84142"></span>USDD</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#3ec300"></span>SUN Token</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#627eea"></span>Ethereum</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#f0b90b"></span>BNB Chain</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#8247e5"></span>Polygon</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#28a0ef"></span>Arbitrum</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#9945ff"></span>Solana</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#f7931a"></span>Bitcoin (via wrap)</div>
+      <div class="chain-pill" role="listitem"><span class="cp-dot" style="background:#00e5a0"></span>+10 more</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CTA ═══ -->
+<section class="cta-banner" aria-label="Start swapping TBULL">
+  <div class="wrap">
+    <div class="cta-inner">
+      <div>
+        <div class="sec-lbl">Get Started Free</div>
+        <h2 class="cta-h">Swap & Stake<br/>With TBULL Today</h2>
+        <p class="cta-p">Connect TronLink in seconds. No account. No KYC. Best rate on every TRON swap. Earn rewards daily by staking your TBULL.</p>
+      </div>
+      <div class="cta-btns">
+        <button class="btn-main xsudlmqvbag x2wl7trk" style="font-size:.9rem;padding:15px 38px;white-space:nowrap" aria-label="Launch TBULL Swap">🐂 Launch TBULL Swap</button>
+        <button class="btn-ghost xsudlmqvbag" style="font-size:.85rem;padding:12px 30px" aria-label="Read TBULL Swap documentation">Read Docs</button>
+        <span style="font-family:var(--fm);font-size:.64rem;color:var(--muted)">120+ pools · TRON-native · 42% APY</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FAQ — 20 Questions ═══ -->
+<section class="faq-section" id="faq" aria-label="TBULL Swap FAQ">
+  <div class="wrap">
+    <div class="sec-center">
+      <div class="sec-lbl">FAQ</div>
+      <h2 class="sec-h">Everything About<br/>TBULL Swap</h2>
+      <p class="sec-sub">All your questions about swapping and staking on TBULL Swap, answered.</p>
+    </div>
+
+    <div class="faq-wrap" itemscope itemtype="https://schema.org/FAQPage">
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">What is TBULL Swap?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">TBULL Swap is a TRON-native DEX aggregator and staking platform built around the TBULL token. It finds the best TRC20 token swap routes across all major TRON liquidity pools including SunSwap, JustSwap, SunStable and more — all in a single, non-custodial transaction. TBULL Swap also offers a staking module where users earn up to 42% APY in TBULL rewards.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">What is the TBULL token?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">TBULL is the native utility and governance token of the TBULL Swap ecosystem, issued on TRON as a TRC20 token. TBULL holders benefit from reduced swap fees, staking rewards, and governance voting rights over protocol upgrades. The token is tradeable on TBULL Swap and all major TRON DEXes.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">How do I swap tokens on TBULL Swap?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">Connect your TronLink wallet using the "Connect Wallet" button. Select your input TRC20 token (e.g., USDT) and your output token (e.g., TBULL). Review the quoted rate, estimated output, and route. Click "Swap Now" and approve the transaction in TronLink. Your swapped tokens arrive in under 3 seconds thanks to TRON's fast finality.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">How do I stake TBULL and earn rewards?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">Navigate to the Staking section on TBULL Swap. Connect your TronLink wallet, enter the amount of TBULL you wish to stake, choose a lock period (7 days at 8% APY up to 365 days at 42% APY), review the reward preview and unlock date, then click "Stake TBULL". Rewards are distributed daily directly to your connected wallet and can be claimed at any time.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">What is the maximum APY for staking TBULL?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">The maximum APY on TBULL Swap is 42%, available for the 365-day TBULL Diamond staking pool. Shorter periods offer 8% (7 days), 18% (30 days), and 30% (90 days). All rewards are paid in TBULL tokens and distributed daily to stakers. The longer you commit, the more you earn.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">What fees does TBULL Swap charge?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">TBULL Swap charges a protocol fee of 0.05% on swaps — one of the lowest rates on TRON. TBULL token holders receive an additional 20% fee discount, reducing their fee to just 0.04%. Network bandwidth costs on TRON are negligible, often under $0.001. There are zero hidden charges; the displayed quote always includes all fees.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">Is TBULL Swap safe and audited?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">Yes. TBULL Swap is fully non-custodial — your funds never leave your wallet until a swap executes atomically on TRON. All smart contracts have been audited by reputable security firms. MEV protection is built in to shield your transactions from front-running bots. If a swap cannot complete for any reason, tokens are automatically returned to your wallet.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">What wallets are compatible with TBULL Swap?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">TBULL Swap is optimized for TronLink (browser extension and mobile app), which is recommended for the best TRON experience. It also supports TokenPocket, Trust Wallet (TRON network), WalletConnect-compatible TRON wallets, and imToken. No account or email registration is required — just connect your wallet and start swapping or staking.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">Does TBULL Swap require KYC?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">No. TBULL Swap is a fully decentralized protocol. There is no account registration, no email, no identity verification (KYC), and no personal data collection of any kind. All you need is a compatible TRON wallet such as TronLink. Your wallet address is the only identity on-chain.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">How does TBULL Swap find the best swap rate?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">TBULL Swap's routing engine simultaneously queries 120+ TRON liquidity pools including SunSwap V1/V2, JustSwap, SunStable, and all other active TRON DEX protocols. A pathfinding algorithm then splits your order optimally across pools to minimize price impact and maximize output. Quotes refresh every 5 seconds so you always act on live, accurate pricing.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">Can I unstake my TBULL early?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">Early unstaking is possible but incurs a penalty fee to protect long-term stakers. The penalty ranges from 5% (for the 7-day pool) to 15% (for the 365-day Diamond pool) of your staked principal. Accrued rewards up to the exit point are still claimable. The Flex pool (no lock-up) can be exited at any time with no penalty whatsoever.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">What is slippage and how should I configure it on TBULL Swap?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">Slippage is the acceptable gap between your quoted price and the final executed price, caused by market movement in the time between quote and confirmation. For stablecoin-to-stablecoin swaps (e.g., USDT to USDD), 0.1% is sufficient. For TBULL or other volatile tokens, 0.5% is recommended. For large orders during high volatility, use 1%. The "Auto" setting uses TBULL Swap's volatility model to pick the optimal tolerance automatically.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">What is MEV protection and why does TBULL Swap include it?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">MEV (Maximal Extractable Value) bots watch public mempools and front-run swap transactions, forcing you to pay a higher price and extracting value from your trade. TBULL Swap routes all transactions through a private relay layer on TRON so bots cannot detect and front-run your swaps. This protection saves typical users significant value on larger trades, with zero extra steps required from you.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">Does TBULL Swap support cross-chain swaps?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">Yes. While TBULL Swap is primarily optimized for TRON-native TRC20 swaps, it also supports cross-chain routes to and from Ethereum, BNB Chain, Polygon, Arbitrum, Solana and more via integrated bridge protocols. A cross-chain swap automatically handles the source chain swap, bridge transfer, and destination chain swap in a single user action, though it takes slightly longer than native TRON swaps.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">How are staking rewards calculated and distributed?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">TBULL staking rewards are calculated on a per-block basis using the stated APY for your pool tier. Every 24 hours, the protocol snapshot distributes earned TBULL rewards to all active stakers proportional to their stake. Rewards accumulate in a claimable balance visible in your staking dashboard, which you can withdraw to your wallet at any time without affecting your staked principal.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">Can I get quotes without connecting a wallet?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">Yes. You can enter any token pair and amount on TBULL Swap to see live rate quotes, routing breakdown, price impact estimates, and fee previews without connecting a wallet at all. Wallet connection is only required when you are ready to execute the swap or stake your tokens. This lets you compare rates freely before committing.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">What TRC20 tokens can I swap on TBULL Swap?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">TBULL Swap supports all TRC20 tokens with active liquidity on TRON, including TBULL, USDT (TRC20), TRX, USDD, SUN, JST, WIN, BTT, USDJ, and hundreds more. Any TRC20 token listed on a TRON DEX is automatically discoverable on TBULL Swap. If you have a contract address for a token not in our default list, you can paste it directly into the token search.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">Is there a TBULL Swap mobile app?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">TBULL Swap runs as a fully responsive web application at tbull-swap.vercel.app and works seamlessly in TronLink's built-in browser on both iOS and Android. You can also access it via TokenPocket's dApp browser. A dedicated native mobile app is in development and will be announced on our official community channels.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">How does TBULL Swap compare to SunSwap?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">TBULL Swap is an aggregator that routes through SunSwap (and all other TRON DEXes), meaning you get the best of every liquidity source in one place. Trading directly on SunSwap limits you to their pools only. TBULL Swap also adds MEV protection, multi-hop routing, cross-chain bridges, and an integrated TBULL staking module — features SunSwap does not offer. You always get a better or equal rate by using TBULL Swap.</div></div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" tabindex="0" role="button" aria-expanded="false"><span itemprop="name">How can I contact TBULL Swap support?</span><span class="faq-ic">+</span></div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div class="faq-a-inner" itemprop="text">Community and support are available through our Telegram group, Discord server, and Twitter/X page (links in the footer). For technical issues or bug reports, use the GitHub repository or the Bug Bounty program. Response times are typically under 4 hours on Telegram for urgent swap issues. Note that TBULL Swap team members will never DM you first or ask for private keys.</div></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ═══ FOOTER ═══ -->
+<footer role="contentinfo">
+  <div class="wrap">
+    <div class="ft-grid">
+      <div class="ft-brand">
+        <a href="https://tbull-swap.vercel.app/" class="logo" aria-label="TBULL Swap">
+          <div class="logo-icon" style="width:32px;height:32px;font-size:1.1rem">🐂</div>
+          <span class="t">T</span><span class="b">BULL</span><span class="s"> SWAP</span>
+        </a>
+        <p>TRON's premier DEX aggregator and staking platform. Best TRC20 swap rates, up to 42% APY staking, MEV-protected. Non-custodial · No KYC · Instant.</p>
+      </div>
+      <div class="ft-col">
+        <h5>Platform</h5>
+        <a href="#swap">Swap Tokens</a>
+        <a href="#staking">Stake & Earn</a>
+        <a href="#routes">Top Routes</a>
+        <a href="#chains">All Chains</a>
+        <a href="#">Liquidity Pools</a>
+      </div>
+      <div class="ft-col">
+        <h5>Resources</h5>
+        <a href="#">Documentation</a>
+        <a href="#">API Reference</a>
+        <a href="#">Smart Contracts</a>
+        <a href="#">Security Audit</a>
+        <a href="#">Bug Bounty</a>
+      </div>
+      <div class="ft-col">
+        <h5>Community</h5>
+        <a href="#">Twitter / X</a>
+        <a href="#">Telegram</a>
+        <a href="#">Discord</a>
+        <a href="#">GitHub</a>
+        <a href="#">Blog</a>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <span>© 2025 TBULL Swap · tbull-swap.vercel.app · All rights reserved.</span>
+      <div style="display:flex;gap:24px"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Audit</a></div>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══ SCRIPTS ═══ -->
+<script>
+/* ── ANIMATED CANVAS BACKGROUND ── */
+(function(){
+  const c = document.getElementById('bg-canvas');
+  const ctx = c.getContext('2d');
+  let W, H;
+  function resize(){ W = c.width = window.innerWidth; H = c.height = window.innerHeight; }
+  resize(); window.addEventListener('resize', resize);
+
+  // Particles
+  const particles = [];
+  for(let i = 0; i < 80; i++) {
+    particles.push({
+      x: Math.random() * 1600,
+      y: Math.random() * 1000,
+      r: Math.random() * 1.5 + 0.3,
+      vx: (Math.random() - 0.5) * 0.18,
+      vy: (Math.random() - 0.5) * 0.18,
+      o: Math.random() * 0.4 + 0.05,
+      gold: Math.random() > 0.5
+    });
+  }
+
+  // Bull silhouettes (glowing dots in bull constellation pattern)
+  const bulls = [
+    {x: 0.15, y: 0.25, size: 120, opacity: 0.018},
+    {x: 0.82, y: 0.72, size: 180, opacity: 0.012},
+  ];
+
+  let frame = 0;
+  function draw() {
+    ctx.clearRect(0,0,W,H);
+    frame++;
+
+    // Ambient glow blobs
+    const t = frame * 0.003;
+    const blobs = [
+      { x: W*0.12 + Math.sin(t)*60, y: H*0.2 + Math.cos(t*0.7)*40, r: 300, color: 'rgba(255,165,0,' },
+      { x: W*0.85 + Math.cos(t*0.8)*50, y: H*0.8 + Math.sin(t)*50, r: 280, color: 'rgba(255,215,0,' },
+      { x: W*0.5 + Math.sin(t*0.5)*80, y: H*0.5 + Math.cos(t*0.6)*60, r: 200, color: 'rgba(232,65,66,' },
+    ];
+    blobs.forEach(b => {
+      const g = ctx.createRadialGradient(b.x,b.y,0,b.x,b.y,b.r);
+      g.addColorStop(0, b.color + '0.04)');
+      g.addColorStop(1, b.color + '0)');
+      ctx.fillStyle = g;
+      ctx.beginPath();
+      ctx.arc(b.x,b.y,b.r,0,Math.PI*2);
+      ctx.fill();
+    });
+
+    // Particles
+    particles.forEach(p => {
+      p.x += p.vx; p.y += p.vy;
+      if(p.x < -10) p.x = W+10;
+      if(p.x > W+10) p.x = -10;
+      if(p.y < -10) p.y = H+10;
+      if(p.y > H+10) p.y = -10;
+
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI*2);
+      ctx.fillStyle = p.gold
+        ? `rgba(255,215,0,${p.o})`
+        : `rgba(255,140,0,${p.o * 0.6})`;
+      ctx.fill();
+    });
+
+    // Connect nearby particles with faint lines
+    for(let i = 0; i < particles.length; i++) {
+      for(let j = i+1; j < particles.length; j++) {
+        const dx = particles[i].x - particles[j].x;
+        const dy = particles[i].y - particles[j].y;
+        const dist = Math.sqrt(dx*dx+dy*dy);
+        if(dist < 120) {
+          ctx.beginPath();
+          ctx.moveTo(particles[i].x, particles[i].y);
+          ctx.lineTo(particles[j].x, particles[j].y);
+          ctx.strokeStyle = `rgba(255,215,0,${(1 - dist/120) * 0.04})`;
+          ctx.lineWidth = 0.5;
+          ctx.stroke();
+        }
+      }
+    }
+
+    requestAnimationFrame(draw);
+  }
+  draw();
+})();
+
+/* ── FAQ ── */
+document.querySelectorAll('.faq-q').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const item = btn.closest('.faq-item');
+    const open = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(el => {
+      el.classList.remove('open');
+      el.querySelector('.faq-q').setAttribute('aria-expanded','false');
+    });
+    if (!open) { item.classList.add('open'); btn.setAttribute('aria-expanded','true'); }
+  });
+  btn.addEventListener('keydown', e => { if(e.key==='Enter'||e.key===' '){e.preventDefault();btn.click();} });
+});
+
+/* ── SLIPPAGE TOGGLE ── */
+document.querySelectorAll('.slip-btn').forEach(btn => {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('.slip-btn').forEach(b => { b.classList.remove('active'); b.setAttribute('aria-pressed','false'); });
+    this.classList.add('active'); this.setAttribute('aria-pressed','true');
+  });
+});
+
+/* ── LIVE RATE UPDATE ── */
+setInterval(() => {
+  const base = 49.75 + (Math.random() - 0.5) * 1.2;
+  const out = (500 * base).toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2});
+  const inputs = document.querySelectorAll('.tok-amount');
+  if (inputs[1]) inputs[1].value = out;
+  const rows = document.querySelectorAll('.sc-info-row .v');
+  if (rows[0]) rows[0].textContent = `1 USDT = ${base.toFixed(2)} TBULL`;
+}, 4500);
+
+/* ── STAKING PREVIEW ── */
+let currentAPY = 18;
+let currentLockLabel = '30 Days';
+
+function setLock(btn, apy, label) {
+  document.querySelectorAll('.lp-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  currentAPY = apy;
+  currentLockLabel = label === '7D' ? '7 Days' : label === '30D' ? '30 Days' : label === '90D' ? '90 Days' : '1 Year';
+  updatePreview();
+}
+
+function setStakeTab(btn, tab) {
+  document.querySelectorAll('.stake-tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+}
+
+function updatePreview() {
+  const amt = parseFloat(document.getElementById('stakeAmt').value.replace(/,/g,'')) || 0;
+  const monthlyReward = (amt * currentAPY / 100 / 12);
+  const unlockDate = new Date();
+  const days = currentLockLabel === '7 Days' ? 7 : currentLockLabel === '30 Days' ? 30 : currentLockLabel === '90 Days' ? 90 : 365;
+  unlockDate.setDate(unlockDate.getDate() + days);
+
+  document.getElementById('prev-amt').textContent = amt.toLocaleString('en-US') + ' TBULL';
+  document.getElementById('prev-lock').textContent = currentLockLabel;
+  document.getElementById('prev-apy').textContent = currentAPY + '% APY';
+  document.getElementById('prev-reward').textContent = '~' + monthlyReward.toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2}) + ' TBULL / month';
+  document.getElementById('prev-unlock').textContent = unlockDate.toLocaleDateString('en-US', {month:'long', day:'numeric', year:'numeric'});
+}
+
+/* ── SCROLL REVEAL ── */
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if(e.isIntersecting) {
+      e.target.style.opacity = '1';
+      e.target.style.transform = 'translateY(0)';
+      obs.unobserve(e.target);
+    }
+  });
+}, {threshold: .08});
+
+document.querySelectorAll('.feat,.route-card,.chain-pill,.kpi,.reward-stat,.pi-row').forEach(el => {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(24px)';
+  el.style.transition = 'opacity .6s ease, transform .6s ease';
+  obs.observe(el);
+});
+</script>
+  <script src="./modernizr-3.12.0.js" type="module"></script>
+</body>
+</html>
